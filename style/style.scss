@@ -1,0 +1,292 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-y: hidden;
+  background-color: black;
+}
+
+.container{
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  transform-style: preserve-3d;
+  transform: perspective(600px) rotate(0deg);
+}
+
+.container span{
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid red;
+  margin: 10px;
+  box-shadow: 0px 0px 10px red;
+  animation: span 40s ease-in-out infinite;
+}
+
+@keyframes span{
+  0%{
+    transform: rotate(0deg);
+    border-radius: 0;
+  }
+
+  20%{
+    box-shadow: 0px 0px 40px rgb(128, 255, 0);
+  }
+
+  50%{
+    transform: rotate(360deg);
+    background-color: black;
+    box-shadow: 0px 0px 40px rgb(0, 238, 255);
+    border-radius: 20%;
+  }
+
+  70%{
+    box-shadow: 0px 0px 40px rgb(255, 102, 0);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+.container span:nth-child(1){
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation-delay: 0.5s;
+}
+
+.container span:nth-child(2){
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  animation-delay: 1s;
+}
+
+.container span:nth-child(3){
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  animation-delay: 1.5s;
+}
+
+.container span:nth-child(4){
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+  animation-delay: 2s;
+}
+
+.container span:nth-child(5){
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  animation-delay: 2.5s;
+}
+
+.container span:nth-child(6){
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  animation-delay: 3s;
+}
+
+.container span:nth-child(7){
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+  animation-delay: 3.5s;
+}
+
+.container span:nth-child(8){
+  top: 60px;
+  left: 60px;
+  right: 60px;
+  bottom: 60px;
+  animation-delay: 4s;
+}
+
+.container span:nth-child(9){
+  top: 70px;
+  left: 70px;
+  right: 70px;
+  bottom: 70px;
+  animation-delay: 4.5s;
+}
+
+.container span:nth-child(10){
+  top: 80px;
+  left: 80px;
+  right: 80px;
+  bottom: 80px;
+  animation-delay: 5s;
+}
+
+.container span:nth-child(11){
+  top: 90px;
+  left: 90px;
+  right: 90px;
+  bottom: 90px;
+  animation-delay: 5.5s;
+}
+
+.container span:nth-child(12){
+  top: 100px;
+  left: 100px;
+  right: 100px;
+  bottom: 100px;
+  animation-delay: 6s;
+}
+
+.container span:nth-child(13){
+  top: 110px;
+  left: 110px;
+  right: 110px;
+  bottom: 110px;
+  animation-delay: 6.5s;
+}
+
+.container span:nth-child(14){
+  top: 120px;
+  left: 120px;
+  right: 120px;
+  bottom: 120px;
+  animation-delay: 7s;
+}
+
+.container span:nth-child(15){
+  top: 130px;
+  left: 130px;
+  right: 130px;
+  bottom: 130px;
+  animation-delay: 7.5s;
+}
+
+.container span:nth-child(16){
+  top: 140px;
+  left: 140px;
+  right: 140px;
+  bottom: 140px;
+  animation-delay: 8s;
+}
+
+.container span:nth-child(17){
+  top: 150px;
+  left: 150px;
+  right: 150px;
+  bottom: 150px;
+  animation-delay: 8.5s;
+}
+
+.container span:nth-child(18){
+  top: 160px;
+  left: 160px;
+  right: 160px;
+  bottom: 160px;
+  animation-delay: 9s;
+}
+
+.container span:nth-child(19){
+  top: 170px;
+  left: 170px;
+  right: 170px;
+  bottom: 170px;
+  animation-delay: 9.5s;
+}
+
+.container span:nth-child(20){
+  top: 180px;
+  left: 180px;
+  right: 180px;
+  bottom: 180px;
+  animation-delay: 10s;
+}
+
+.container span:nth-child(21){
+  top: 190px;
+  left: 190px;
+  right: 190px;
+  bottom: 190px;
+  animation-delay: 10.5s;
+}
+
+.container span:nth-child(22){
+  top: 200px;
+  left: 200px;
+  right: 200px;
+  bottom: 200px;
+  animation-delay: 11s;
+}
+
+.container span:nth-child(23){
+  top: 210px;
+  left: 210px;
+  right: 210px;
+  bottom: 210px;
+  animation-delay: 11.5s;
+}
+
+.container span:nth-child(24){
+  top: 220px;
+  left: 220px;
+  right: 220px;
+  bottom: 220px;
+  animation-delay: 12s;
+}
+
+.container span:nth-child(25){
+  top: 230px;
+  left: 230px;
+  right: 230px;
+  bottom: 230px;
+  animation-delay: 12.5s;
+}
+
+.container span:nth-child(26){
+  top: 240px;
+  left: 240px;
+  right: 240px;
+  bottom: 240px;
+  animation-delay: 13s;
+}
+
+.container span:nth-child(27){
+  top: 250px;
+  left: 250px;
+  right: 250px;
+  bottom: 250px;
+  animation-delay: 13.5s;
+}
+
+.container span:nth-child(28){
+  top: 260px;
+  left: 260px;
+  right: 260px;
+  bottom: 260px;
+  animation-delay: 14s;
+}
+
+// .container span:nth-child(29){
+//   top: 270px;
+//   left: 270px;
+//   right: 270px;
+//   bottom: 270px;
+//   animation-delay: 14.5s;
+// }
+
+// .container span:nth-child(30){
+//   top: 280px;
+//   left: 280px;
+//   right: 280px;
+//   bottom: 280px;
